@@ -7,7 +7,7 @@ jobs:
      steps:
        - name: print era idiot
          run: echo "idoit"
-       - name: print cpu info
+       - name: print cpu infro
          run: lscpu
        - name: print mem info
-          run: lsmem
+         run: lsmem
