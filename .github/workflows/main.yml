@@ -1,0 +1,13 @@
+name: workflow
+on: workflow_dispatch
+
+jobs:
+  job-1:
+     runs-on: ubuntu-24.04
+     steps:
+       - name: print era idiot
+         run: echo "idoit"
+       - name: print cpu info
+         run: lscpu
+       - name: print mem info
+          run: lsmem
